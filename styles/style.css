@@ -331,3 +331,90 @@ height: 400px;
     flex-direction: column;
     gap: 24px;
 }
+
+/* donate section style  */
+.donate {
+    margin-top: 80px;
+}
+
+.donate-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.donate-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.taka-card {
+    padding: 40px;
+    width: 240px;
+    height: 128px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+
+
+
+}
+
+.taka-card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.taka {
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 30px;
+    margin: 0 auto;
+    /*recheck before sumbit*/
+    text-align: center;
+}
+
+.donate input[type="text"] {
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    width: 1032px;
+    height: 64px;
+    border: none;
+
+}
+
+.donate input[type="text"]::placeholder {
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input-field {
+    text-align: center;
+    margin-bottom: 32px;
+
+}
+
+
+
+.donate button {
+    display: block;
+    margin: 0 auto;
+
+}
