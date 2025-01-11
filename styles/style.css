@@ -219,15 +219,34 @@ height: 400px;
 }
 
 .item1 {
-    background: rgba(84, 144, 245, 0.2);
+    background: rgba(76, 78, 44, 0.4);
 }
 
+.item1:hover {
+
+    background: rgba(84, 144, 245, 0.2);
+
+}
+
+
 .item2 {
+    background: rgba(76, 78, 44, 0.4);
+}
+
+.item2:hover {
+
     background: rgb(198, 228, 214);
+
 }
 
 .item3 {
+    background: rgba(76, 78, 44, 0.4);
+}
+
+.item3:hover {
+
     background: rgb(247, 235, 207);
+
 }
 
 .btn-color1 {
