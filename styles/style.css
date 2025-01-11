@@ -391,7 +391,7 @@ height: 400px;
     box-sizing: border-box;
     border-bottom: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
-    width: 1032px;
+    width: 1332px;
     height: 64px;
     border: none;
 
@@ -411,10 +411,102 @@ height: 400px;
 
 }
 
-
-
 .donate button {
     display: block;
     margin: 0 auto;
 
+}
+
+/* newsletter sectin style  */
+.newsletter {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 395px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    padding: 80px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.newsletter-title {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.newsletter-subtitle {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.newsletter input[type="email"] {
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    width: 720px;
+    height: 55px;
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+
+}
+
+.newsletter input[type="email"]::placeholder {
+
+    padding-left: 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.subscribe-btn {
+    border-radius: 0px 8px 8px 0px;
+    width: 150px;
+    height: 56px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+
+.email-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+}
+
+.newsletter-subtext {
+    margin-top: 25px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
 }
