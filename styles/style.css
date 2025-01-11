@@ -104,12 +104,10 @@ nav ul {
     color: #fff4f4;
 }
 
-/* .banner-img{
-width: 474.03px;
-height: 400px;
-} */
+
 
 /* pillar style */
+
 .pillar {
     margin-top: 80px;
 }
@@ -268,7 +266,7 @@ height: 400px;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: url(/assets/quote-bg.png);
+    background: url(/assets/quote-bg.png), white;
     background-repeat: no-repeat;
     background-position: left 24px top 40px;
     display: flex;
@@ -309,6 +307,7 @@ height: 400px;
 }
 
 /* recent news section style  */
+
 .recent-news {
     margin-top: 80px;
 }
@@ -430,8 +429,6 @@ height: 400px;
     color: rgba(14, 14, 14, 0.8);
     font-family: Fira Sans;
     font-size: 30px;
-    margin: 0 auto;
-    /*recheck before sumbit*/
     text-align: center;
 }
 
@@ -465,7 +462,7 @@ height: 400px;
 
 }
 
-/* newsletter sectin style  */
+/* newsletter section style  */
 .newsletter {
     margin-top: 80px;
     margin-bottom: 80px;
