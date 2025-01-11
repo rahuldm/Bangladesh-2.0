@@ -277,7 +277,7 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: right;
+    align-items: left;
 
 
 }
