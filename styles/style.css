@@ -266,7 +266,7 @@ nav ul {
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
-    background: url(/assets/quote-bg.png), white;
+    background: url(../assets/quote-bg.png), white;
     background-repeat: no-repeat;
     background-position: left 24px top 40px;
     display: flex;
